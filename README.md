@@ -1,2 +1,2 @@
 # devcompack.github.io
-https://www.devcompack.com
+https://devcompack.saidelimam.com
