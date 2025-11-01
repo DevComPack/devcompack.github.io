@@ -10,11 +10,6 @@
 	<meta name="google-site-verification" content="y-jWENVFpzlv7miq7y91qbOZsFWRPnT97zbygWoHlnY" />
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="stylesheet" type="text/css"
-		href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.css" />
-	<!--[if lt IE 9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
 
 	<script>
 		(function (i, s, o, g, r, a, m) {
@@ -33,64 +28,81 @@
 <body>
 	<div id="wrapper">
 		<div id="content">
-			<div class="ui yellow message" style="display:none;">
-				<i class="star icon"></i>
-				Website is under construction..
-			</div>
-			<div class="ui items">
-				<div class="item">
-					<a class="ui tiny image" href="https://gocollab.cc">
-						<img alt="rs-logo" src="images/gocollab.ico">
+			<header class="header">
+				<p class="subtitle">Community Development Projects</p>
+			</header>
+			
+			<div class="cards-container">
+				<div class="card">
+					<span class="card-label label-live">live</span>
+					<a href="https://gocollab.cc" class="card-image">
+						<img alt="GoCollab logo" src="images/gocollab.ico">
 					</a>
-					<div class="content">
-						<a class="header" href="https://gocollab.cc">GoCollab.cc</a>
-						<div class="description">
-							<p>Creative Social Platform project.</p>
-							<a href="https://gocollab.cc">View Website</a>
-						</div>
+					<div class="card-content">
+						<h2 class="card-title">
+							<a href="https://gocollab.cc">GoCollab.cc</a>
+						</h2>
+						<p class="card-description">Creative Social Platform project.</p>
+						<a href="https://gocollab.cc" class="card-link">View Website →</a>
 					</div>
 				</div>
-				<div class="item">
-					<a class="ui tiny image" href="http://dev.saidelimam.com/setupmaker/">
-						<img alt="dcpsm-logo" src="images/setupmaker.png">
+
+				<div class="card">
+					<span class="card-label label-live">live</span>
+					<a href="http://dev.saidelimam.com/setupmaker/" class="card-image">
+						<img alt="DCP Setup Maker logo" src="images/setupmaker.png">
 					</a>
-					<div class="content">
-						<a class="header" href="http://dev.saidelimam.com/setupmaker/">DCP Setup Maker</a>
-						<div class="description">
-							<p>Powerful cross-platform install builder.</p>
-							<a href="http://dev.saidelimam.com/setupmaker/">View Website</a>
-						</div>
+					<div class="card-content">
+						<h2 class="card-title">
+							<a href="http://dev.saidelimam.com/setupmaker/">DCP Setup Maker</a>
+						</h2>
+						<p class="card-description">Powerful cross-platform install builder.</p>
+						<a href="http://dev.saidelimam.com/setupmaker/" class="card-link">View Website →</a>
 					</div>
 				</div>
-				<div class="item">
-					<a class="ui tiny image" href="https://github.com/RoleSwitch">
-						<img alt="rs-logo" src="images/roleswitch.png">
+
+				<div class="card">
+					<span class="card-label label-aborted">aborted</span>
+					<a href="https://github.com/RoleSwitch" class="card-image">
+						<img alt="RoleSwitch logo" src="images/roleswitch.png">
 					</a>
-					<div class="content">
-						<a class="header" href="https://github.com/RoleSwitch">RoleSwitch</a>
-						<div class="description">
-							<p>Role-Playing Social Network project.</p>
-							<a href="https://github.com/RoleSwitch">View Source</a>
-						</div>
+					<div class="card-content">
+						<h2 class="card-title">
+							<a href="https://github.com/RoleSwitch">RoleSwitch</a>
+						</h2>
+						<p class="card-description">Role-Playing Social Network project.</p>
+						<a href="https://github.com/RoleSwitch" class="card-link">View Source →</a>
 					</div>
 				</div>
-				<div class="item">
-					<a class="ui tiny image" href="https://github.com/HumInAct">
-						<img alt="hia-logo" src="images/huminact_logo.png">
+
+				<div class="card">
+					<span class="card-label label-aborted">aborted</span>
+					<a href="https://github.com/HumInAct" class="card-image">
+						<img alt="HumInAct logo" src="images/huminact_logo.png">
 					</a>
-					<div class="content">
-						<a class="header" href="https://github.com/HumInAct">HumInAct</a>
-						<div class="description">
-							<p>Artificial Intelligence project to simulate brain memory using NLP.</p>
-							<a href="https://github.com/HumInAct">View Source</a>
-						</div>
+					<div class="card-content">
+						<h2 class="card-title">
+							<a href="https://github.com/HumInAct">HumInAct</a>
+						</h2>
+						<p class="card-description">Artificial Intelligence project to simulate brain memory using NLP.</p>
+						<a href="https://github.com/HumInAct" class="card-link">View Source →</a>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<footer class="footer">
+			<p class="footer-text">
+				&copy; <span id="current-year"></span> Created by <a href="https://saidelimam.com" class="footer-link">Said Elimam</a>
+			</p>
+		</footer>
 	</div>
 
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.js"></script>
+	<script>
+		// Set current year for copyright
+		document.getElementById('current-year').textContent = new Date().getFullYear();
+	</script>
+
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7816663811120927"
      crossorigin="anonymous"></script>
 </body>
