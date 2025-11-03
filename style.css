@@ -193,6 +193,11 @@ body {
     color: #ffffff;
 }
 
+.label-abandoned {
+    background-color: #f97316;
+    color: #ffffff;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header h1 {
