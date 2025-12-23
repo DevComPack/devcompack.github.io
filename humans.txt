@@ -1,0 +1,17 @@
+/* TEAM */
+Developer: Said Elimam
+Contact: contact [at] saidelimam.com
+Website: https://saidelimam.com
+Location: France
+
+/* THANKS */
+Fonts: Google Fonts (JetBrains Mono, Inter)
+Icons: Font Awesome
+Analytics: Google Analytics
+
+/* SITE */
+Last update: 2025/01/27
+Standards: HTML5, CSS3, JavaScript
+Components: Modern CSS, Responsive Design
+Software: VS Code, Git
+
