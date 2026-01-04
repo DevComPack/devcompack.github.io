@@ -851,6 +851,12 @@ body {
     margin-left: auto;
 }
 
+@media (max-width: 1024px) {
+    .git-blame-message {
+        display: none;
+    }
+}
+
 .footer-link {
     color: var(--accent-primary);
     text-decoration: none;
