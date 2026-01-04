@@ -1,13 +1,32 @@
-# robots.txt for devcompack.github.io
+# robots.txt for dev.saidelimam.com
 
 User-agent: *
 Allow: /
 
+# AI crawlers (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
 # Sitemap
-Sitemap: https://devcompack.github.io/sitemap.xml
+Sitemap: https://dev.saidelimam.com/sitemap.xml
 
 # Disallow specific paths if needed
-# Disallow: /private/
-# Disallow: /admin/
+Disallow: /private/
+Disallow: /admin/
 
 

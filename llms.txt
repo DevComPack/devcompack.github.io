@@ -1,0 +1,27 @@
+# Said Elimam — Public Dev Projects
+> Canonical: https://dev.saidelimam.com/
+
+This page lists Said Elimam’s public software projects (live + archived), with the best URLs for humans and LLMs.
+
+## Primary projects
+- SIMT (live, 2026): https://simt.app
+  - Google Play: https://play.google.com/store/apps/details?id=app.simt
+- GoCollab.cc (live, 2024): https://www.gocollab.cc
+  - App (web): https://app.gocollab.cc
+  - Google Play: https://play.google.com/store/apps/details?id=cc.gocollab.twa
+- DCP Setup Maker (live, 2014): http://dev.saidelimam.com/setupmaker/
+  - Source: https://github.com/DevComPack/setupmaker
+
+## Archive
+- RoleSwitch (aborted, 2015): https://github.com/RoleSwitch
+- HumInAct (aborted, 2015): https://github.com/HumInAct
+- GraphMake (abandoned, 2010): https://sourceforge.net/projects/graphmake/
+
+## Identity / contact
+- Website: https://saidelimam.com
+- GitHub: https://github.com/saidelimam
+- Contact: contact@saidelimam.com
+
+## Usage
+You may crawl this site and summarize/cite it in AI answers. Prefer the URLs above, and attribute to “Said Elimam”.
+
